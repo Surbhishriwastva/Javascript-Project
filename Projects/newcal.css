@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(50, 47, 48, 0.877);
+}
+
+.divcontainer {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.5);
+
+}
+
+#inputbox {
+
+    width: 280px;
+    margin: 5px;
+    margin-bottom: 18px;
+    padding: 5px;
+    text-align: right;
+    font-size: 40px;
+    background: transparent;
+    color: #ffffff;
+
+
+
+}
+
+::placeholder {
+    color: #ffff;
+
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    background: transparent;
+    color: #fff;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.eqlbtn {
+    background-color: rgb(179, 71, 31);
+}
+
+.optbtn {
+    color: green;
+
+}
